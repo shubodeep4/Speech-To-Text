@@ -1,0 +1,53 @@
+.stt-container {
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    resize: none;
+    background-color: #f9f9f9;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+  }
+  
+  button:not(:disabled):hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  button:first-of-type {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button:last-of-type {
+    background-color: #f44336;
+    color: white;
+  }
+  
